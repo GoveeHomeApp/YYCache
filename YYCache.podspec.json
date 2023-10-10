@@ -1,0 +1,34 @@
+{
+  "name": "YYCache",
+  "summary": "High performance cache framework for iOS.",
+  "version": "1.0.4",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ibireme": "ibireme@gmail.com"
+  },
+  "social_media_url": "http://blog.ibireme.com",
+  "homepage": "https://github.com/ibireme/YYCache",
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "git": "https://github.com/ibireme/YYCache.git",
+    "tag": "1.0.4"
+  },
+  "requires_arc": true,
+  "libraries": "sqlite3",
+  "frameworks": [
+    "UIKit",
+    "CoreFoundation",
+    "QuartzCore"
+  ],
+  "static_framework": true,
+  "vendored_frameworks": "YYCache.xcframework",
+  "ios": {
+    "public_header_files": "YYCache.xcframework/ios-arm64/*/Headers/*.h",
+    "source_files": "YYCache.xcframework/ios-arm64/*/Headers/*.h"
+  }
+}
